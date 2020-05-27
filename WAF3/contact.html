@@ -1,0 +1,107 @@
+
+
+<!--Wanqun: HTML is used to render website contents to users in rich text format. All images from this website are from https://www.pexels.com. It provides free but high quality stock images, free for education and commercial use. -->
+<!DOCTYPE html> <!-- Wanqun: Inform user's browser which rendering mode should be used. -->
+<html lang="en"> <!-- Wanqun: Identify the language of text content of web pages -->
+	<head> <!-- Wanqun - Specify information about web page to browsers and search engines but is not displayed to users. -->
+		<!-- Wanqun: Specify the character encoding for Unicode -->
+		<meta charset = "utf-8">
+		<!-- Wanqun: Control the web pages dimension and scaling of the viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- Wanqun: Increase the chance of being searched by entering keyword terms on title and meta description tags -->
+		<title>Wheatley Art Festival</title>
+		<meta name="description" content="Creative art festival, wheatley, dancing, sculture, painting events">
+		<!-- Wanqun: Format and style web pages by linking to the specific CSS files -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	</head>
+
+	<body> <!--Wanqun: Web page contents start here that are displayed to users-->
+		<!--Wanqun: Logo Starts Here-->
+			<header>
+				<div class="logo">
+						<div class="left">
+							<h2>Wheatley</h2>
+						</div>
+						<div class="right">
+							<h3>Art Festival</h3>
+						</div>
+				</div>
+				<div class="menu-bar"></div>
+			</header>
+		<!--Wanqun: Logo Ends Here-->
+	
+		<!--Wanqun: Hamburger menu starts here. We decide to use hamburger menu for the whole website because it looks trendy. -->
+			<div class="menu-wrap">
+				<input type="checkbox" class="toggler"> <!--Wanqun: This is where the hamburger menu -->
+				<div class="hamburger"><div></div></div>
+				<div class="menu">
+					<div>
+						<div>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About</a></li>
+								<li><a href="event.html">Events</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="login.html">Login</a></li>
+								<li><a href="myaccount.html">My Account</a></li>
+								<li><a href="register.html">Register</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--Wanqun: Hamburger menu ends here-->
+
+		<!-- Contact us and Google Map Section Starts Here -->
+		<div class="contact-us-container">
+
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-lg-12">
+					<h2>Get in Touch</h2>
+					<p>Tel: 01865 403123 &nbsp; Fax: 01865 403126<br>
+					Email: wheatleyartfestival@gmail.com &nbsp; Address: 123, Wheatley Road, Oxford OX33 1HX</p>
+
+						 <form method="post" data-form-title="CONTACT US">
+			              <div class="form-group">
+			                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+			              </div>
+			              <div class="form-group">
+			                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+			              </div>
+			              <div class="form-group">
+			                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+			              </div>
+			              <div>
+			                <button type="submit" class="btn btn-lg btn-primary">Contact us</button>
+			              </div>
+			            </form>
+				</div>
+				<div class="col-lg-12">
+					<!--Wanqun: This is a live map generated from Google by using the embeded functionality to show it on customised web page -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.108474624014!2d-1.1278710486700536!3d51.74933997957588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876ea17cd1bbe27%3A0x68e1179f60c7ffcf!2sWheatley%20Campus!5e0!3m2!1sen!2suk!4v1585031740840!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--Wanqun: Contact us and Google Map section Ends Here -->
+		
+		<!-- Wanqun: Footer Section Starts Here -->
+
+		<div class="footer">
+                        <p class="copy_right ">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved. Wheatley Art Festival <br> <a href="privacy-policy.html">Privacy Policy</a> &nbsp &#124 &nbsp <a href="terms-conditions.html">Terms & Conditions</a>
+                        </p>
+    	</div>
+		<!-- Wanqun: Footer Section Ends Here -->
+
+		<!-- Wanqun: Inserting JavaScript before the </body> tag instead of running it on the head section, becaure it makes the web pages load faster-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="js/edited-javascript.js"></script>
+		<!-- Wanqun: Display special icons as fonts on the web pages -->
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	</body><!--Wanqun: End of Web Page Contents-->
+</html>
